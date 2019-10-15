@@ -1,7 +1,9 @@
 def roll_call_dwarves(dwarves)# code an argument here
+  array = []
   dwarves.each_with_index do |dwarf, index|
-    print "#{index}.#{dwarf}"
+    array << "#{index}.#{dwarf}"
   end
+  array.join
 end
 
 def summon_captain_planet# code an argument here
