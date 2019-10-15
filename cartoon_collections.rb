@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)# code an argument here
   roll_call_dwarves.each_with_index do |dwarf, index|
-    p dwarf
+    print dwarf
   end
 end
 
